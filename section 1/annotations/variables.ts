@@ -34,7 +34,7 @@ let point: {x: number; y: number} = {
 
 //function
 function logSomething(message: string) : void {
-    return undefined;
+    console.log(message);
 }
 
 //when to use annotations
@@ -50,3 +50,7 @@ let isTrue: boolean;
 isTrue = true
 
     //isTrue = 'asd' → Type 'string' is not assignable to type 'boolean'
+
+//3) variable whose tpye cannot be inferred correctly
+
+logSomething('as');
