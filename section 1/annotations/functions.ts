@@ -3,10 +3,10 @@ function add(a: number, b: number): number {
 }
 
 //desctructuring with type annotation
-const human = {
-  name: "Alex",
-  age: 20,
-};
+// const human = {
+//   name: "Alex",
+//   age: 20,
+// };
 
 function getHuman({ name, age }: { name: string; age: number }): void {
   console.log(name, age);
@@ -40,4 +40,4 @@ function logPiramide(rows: number): void {
   console.log(piramide);
 }
 
-logPiramide(2);
+logPiramide(35);
