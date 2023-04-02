@@ -1,3 +1,0 @@
-Object.create({
-  name: "civic",
-});
