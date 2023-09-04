@@ -31,13 +31,14 @@ class Car extends Vehicle {
   }
 
   //private methods or filed are only available inside the class
-  private private(): void {}
+  private somePrivateMethod(): void {}
 
   //protected methods or fields are available inside the class and its subclasses
-  protected protected(): void {}
+  protected someProtectedMethod(): void {}
 
   public summary(): void {
     console.log(`${this.brand} color ${this.color}`);
+    this.somePrivateMethod();
   }
 }
 
