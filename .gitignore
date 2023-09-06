@@ -3,3 +3,5 @@ node_modules
 dist
 designPatterns/**/dist
 .parcel-cache
+**/out
+**/build
