@@ -4,9 +4,9 @@
 		{
 			"label": "tsc: build",
 			"type": "shell",
-			"command": "tsc",
+			"command": "tsc -b",
 			"windows": {
-				"command": "tsc"
+				"command": "tsc -b"
 			}
 		}
 	]
