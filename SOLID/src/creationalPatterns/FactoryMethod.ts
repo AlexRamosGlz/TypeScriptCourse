@@ -129,7 +129,7 @@ export abstract class Logistics {
     return `Logistics are thrill to announce that ${transport.deliver(
       this.orderId
     )}`;
-  } 
+  }
 
   abstract createTransport(): ITransport;
 }
